@@ -1,0 +1,23 @@
+Submission 1:
+
+XGBoost - old testset & trainset, predict valence & arousal and calculate quadrants
+
+
+Submission 2:
+
+best_XGBRe_3_72_v_0_a_3_generic.jobli;  XGBoost; Quantile Transformer - Generic segment splitted testset, regression on valence & arousal and calc quadrants with no bias (v: 0, a: 3)
+
+
+Submission 3:
+
+Same model as above; Inference bias when calculating quadrant: v: -0.1, a: 3
+
+
+Submission 4:
+
+Same model as above; Inference bias when calculating quadrant: v: -0.13, a: 3
+
+
+
+Submission 5 idea:
+best_XGBRe_score_4_05.joblib with valence threshold changed by -0..1 -> if that does not increase score then try -0.03
